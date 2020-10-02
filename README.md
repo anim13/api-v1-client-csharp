@@ -23,9 +23,8 @@ and changing
 
 `<TargetFramework>netcoreapp1.1</TargetFramework>`
 
-to your project's .NET version, e.g.
-
-`<TargetFramework>net46</TargetFramework>`
+to your project's .NET version, 
+e.g. `<TargetFramework>net46</TargetFramework>`
 
 The recommended way to install and use the library is via NuGet:
 ```
@@ -34,13 +33,13 @@ PM> Install-Package BlockchainAPI
 
 The library consists of the following namespaces:
 
-* `Info.Blockchain.API.Client` ([docs](docs/blockchainhttpclient.md))
-* `Info.Blockchain.API.BlockExplorer` ([docs](docs/blockexplorer.md)) ([api/blockchain_api][api1])
-* `Info.Blockchain.API.ExchangeRates` ([docs](docs/exchangerates.md)) ([api/exchange\_rates\_api][api3])
-* `Info.Blockchain.API.PushTx` ([docs](docs/pushtx.md)) ([pushtx][api6])
-* `Info.Blockchain.API.Statistics` ([docs](docs/statistics.md)) ([api/charts_api][api4])
-* `Info.Blockchain.API.Wallet` ([docs](docs/wallet.md)) ([api/blockchain\_wallet\_api][api5]) and ([api/blockchain/create_wallet][api2])
-* `Info.Blockchain.API.Receive` ([docs](docs/receive.md)) ([api/receive\_payments\_v2\_api][api7])
+* `Info.Blockchain.API.Client`         ([docs](docs/blockchainhttpclient.md))
+* `Info.Blockchain.API.BlockExplorer`  ([docs](docs/blockexplorer.md)) ([api/blockchain_api][api1])
+* `Info.Blockchain.API.ExchangeRates`  ([docs](docs/exchangerates.md)) ([api/exchange\_rates\_api][api3])
+* `Info.Blockchain.API.PushTx`         ([docs](docs/pushtx.md)) ([pushtx][api6])
+* `Info.Blockchain.API.Statistics`     ([docs](docs/statistics.md)) ([api/charts_api][api4])
+* `Info.Blockchain.API.Wallet`         ([docs](docs/wallet.md)) ([api/blockchain\_wallet\_api][api5]) and ([api/blockchain/create_wallet][api2])
+* `Info.Blockchain.API.Receive`        ([docs](docs/receive.md)) ([api/receive\_payments\_v2\_api][api7])
 
 The following namespacse contain helpers and models used by the above:
 
